@@ -1,0 +1,121 @@
+.feed {
+    flex: 6;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.postOptions {
+    padding-top: 10px;
+    margin: 40px;
+    height: 150px;
+    width: 400px;
+    border: 1px solid rgb(44, 43, 43);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 36, 36);
+    gap: 25px;
+}
+
+.userImage {
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+    background-image: url("../../assets/kajol.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+.postContent {
+    display: flex;
+    gap: 20px;
+}
+
+.postContent input {
+    width: 250px;
+    background-color: rgb(37, 36, 36);
+    border: none;
+    border-bottom: 1px solid rgb(125, 123, 123);
+    color: white;
+    font-size: 13px;
+}
+
+.postContent input:focus {
+    outline: none;
+}
+
+.attachOptions {
+    font-size: 14px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.attachOptions a {
+    padding: 15px;
+    background-color: rgb(11, 11, 11);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.uploadOption {
+    border-radius: 20px;
+}
+
+.post {
+    height: 600px;
+    width: 370px;
+    margin-bottom: 40px;
+    /* border: 1px solid rgb(40, 39, 39); */
+    border-bottom: 2px solid rgb(40, 39, 39);
+}
+
+.postUserInfo {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap:10px;
+}
+
+.postIcons {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap:15px;
+    font-size: 1.2rem;
+}
+
+.postUserInfo img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.postUserInfo p {
+    font-size: 12px !important;
+    color:rgb(99, 97, 97);
+    margin-left: 130px;
+}
+
+.postUserInfo i {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.post p {
+    font-size: 14px;
+}
+
+  

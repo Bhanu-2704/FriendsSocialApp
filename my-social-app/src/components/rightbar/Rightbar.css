@@ -1,0 +1,50 @@
+.rightbar {
+    flex: 2;
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+}
+
+.activeFollowers  {
+    height: 200px;
+    width: 180px;
+    background-color: rgb(37, 36, 36);
+    margin: 50px;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.activeFollowers ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.activeUserInfo {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.userImage {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    margin: 0 10px;
+}
+
+.onlineBadge {
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: rgb(29, 234, 29);
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
